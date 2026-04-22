@@ -1,0 +1,21 @@
+# 1. Usamos una imagen base de Java optimizada para contenedores
+FROM registry.access.redhat.com/ubi8/openjdk-17:1.18
+
+# 2. Definimos variables de entorno para Quarkus
+ENV LANGUAGE='en_US:en'
+
+# 3. Exponemos el puerto 8081 (el que configuramos en application.properties)
+EXPOSE 8081
+
+# 4. Copiamos las dependencias y el jar ejecutable generado por Maven
+# Nota: Primero debes ejecutar './mvnw package' en tu computadora
+COPY --chown=185 target/quarkus-app/lib/ /deployments/lib/
+COPY --chown=185 target/quarkus-app/*.jar /deployments/
+COPY --chown=185 target/quarkus-app/app/ /deployments/app/
+COPY --chown=185 target/quarkus-app/quarkus/ /deployments/quarkus/
+
+# 5. Usuario de seguridad (estándar de Red Hat)
+USER 185
+
+# 6. Comando para iniciar la aplicación
+ENTRYPOINT [ "java", "-jar", "/deployments/quarkus-run.jar" ]

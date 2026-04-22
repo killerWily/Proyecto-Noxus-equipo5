@@ -1,0 +1,48 @@
+*Tecnología y Electrónica
+{"nombre": "Laptop Dell XPS 15", "precio": 32500.0, "categoria": "Cómputo"}
+
+{"nombre": "Mouse Logi M650", "precio": 850.0, "categoria": "Accesorios"}
+
+{"nombre": "Monitor 4K LG 27\"", "precio": 7400.0, "categoria": "Monitores"}
+
+{"nombre": "Disco Duro Externo 2TB", "precio": 1600.0, "categoria": "Almacenamiento"}
+
+
+*Supermercado y Abarrotes
+{"nombre": "Aceite Vegetal 1L", "precio": 45.50, "categoria": "Despensa"}
+
+{"nombre": "Detergente en Polvo 5kg", "precio": 185.0, "categoria": "Limpieza"}
+
+{"nombre": "Arroz Blanco 1kg", "precio": 32.0, "categoria": "Granos"}
+
+{"nombre": "Leche Entera 1L", "precio": 27.50, "categoria": "Lácteos"}
+
+
+*Ferretería y Herramientas
+{"nombre": "Taladro Inalámbrico 18V", "precio": 2100.0, "categoria": "Herramientas Eléctricas"}
+
+{"nombre": "Juego de Llaves Allen", "precio": 350.0, "categoria": "Herramientas Manuales"}
+
+{"nombre": "Pintura Vinílica Blanca 19L", "precio": 1450.0, "categoria": "Hogar"}
+
+{"nombre": "Cerradura de Seguridad", "precio": 580.0, "categoria": "Cerrajería"}
+
+
+*Papelería y Oficina
+{"nombre": "Caja de Hojas Bond Carta", "precio": 950.0, "categoria": "Papel"}
+
+{"nombre": "Calculadora Científica", "precio": 420.0, "categoria": "Escolar"}
+
+{"nombre": "Silla de Oficina Ejecutiva", "precio": 2800.0, "categoria": "Muebles"}
+
+{"nombre": "Marcadores permanentes 12pzas", "precio": 215.0, "categoria": "Escritura"}
+
+
+*Moda y Calzado
+{"nombre": "Tenis Deportivos Running", "precio": 1850.0, "categoria": "Calzado"}
+
+{"nombre": "Pantalón Mezclilla Caballero", "precio": 650.0, "categoria": "Ropa"}
+
+{"nombre": "Chaqueta Impermeable L", "precio": 1200.0, "categoria": "Ropa"}
+
+{"nombre": "Gorra Ajustable Negra", "precio": 299.0, "categoria": "Accesorios"}
